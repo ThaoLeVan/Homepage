@@ -1,0 +1,304 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500;600;700;800&family=Cairo:wght@200;300;400;500;600;700;800;900&family=Varela+Round&display=swap');
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body
+{
+    height: 100vh;
+    background: linear-gradient(to right, #4daf54, #3d8880);
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-weight: 800;
+    position: relative;
+}
+                                /* header  */
+#logo {
+    width: 3.4%;
+    margin-top: -10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.header 
+{
+    position: fixed ;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+}
+.header-left 
+{
+    display: flex;
+    float: left;
+    position: absolute;
+    top: 17px;
+    left: 50px;
+}
+.header-mid 
+{
+    position: absolute;
+    top: 22px;
+    left: 450px;
+    display: flex;
+    float: left;
+}
+button 
+{
+    width: 110px;
+    height: 35px;
+    background-color: #fff;
+    /* background-color: #006847; */
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-size: large;
+    border-color: #fff;
+    border: 1px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+button:hover 
+{
+    transform: scale(1.1);
+}
+.btnTC 
+{
+    margin-left: 10px;
+    color: #00a859;
+    font-size: 19px;
+    border-bottom:3px solid ;
+}
+.btnGT 
+{
+    font-size: 20px;
+    margin-left: 15px;
+}
+h1 
+{   
+    cursor: pointer;
+    font-size: 30px;
+    position: relative;
+}
+                                /* poster */
+.poster 
+{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#poster 
+{
+    width: 30%;
+    border-radius: 10px;
+}
+                                /* content */
+.content 
+{
+    width: 100%;
+    height: 3600px;
+}
+.content-1 
+{
+    width: 60%;
+    height: 490px;
+    /* background-image: url(./img/soft-contact-back.22ec50da094606e53938\ \(2\).png); */
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-top: 15px;
+    margin-left: 20%;
+    display: flex;
+    float: left;
+    border-radius: 15px;
+}
+.content-1-left 
+{
+    margin-top: 60px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: justify;
+}
+.content-1-right 
+{
+    margin-top: 30px;
+    margin-right: 25px;
+    margin-left: 20px;
+}
+.content-2 
+{
+    width: 60%;
+    height: 490px;
+    /* background-image: url(/Homepage/assets/img/soft-contact-back.22ec50da094606e53938\ \(2\).png); */
+    background-color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    float: left;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 20%;
+}
+.content-2-right 
+{
+    margin-top: 45px;
+    margin-right: 25px;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: justify;
+}
+.content-2-left 
+{
+    margin-top: 50px;
+    margin-right: 25px;
+    margin-left: 20px;
+}
+#img2 
+{
+    width: 647px;  
+    border-radius: 15px;
+}
+#img3 
+{
+    width: 600px;  
+    border-radius: 15px;
+}
+.content-3 
+{
+    width: 60%;
+    height: 490px;
+    /* background-image: url(/Homepage/assets/img/soft-contact-back.22ec50da094606e53938\ \(2\).png); */
+    background-color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    float: left;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 20%;
+}
+.content-3-right 
+{
+    margin-top: 50px;
+    margin-right: 25px;
+    margin-left: 20px;
+}
+.content-3-left 
+{
+    margin-top: 50px;
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: justify;
+}
+.content-4 
+{
+    width: 60%;
+    height: 1800px;
+    /* background-image: url(/Homepage/assets/img/soft-contact-back.22ec50da094606e53938\ \(2\).png); */
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 20%;
+    display: inline-block;
+}
+.content-4-1 
+{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.content-4-1-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.content-4-2 
+{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.content-4-2-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.content-4-3 
+{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.content-4-3-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#vitri {
+    margin-top: 20px;
+    margin-left: 25px;
+}
+#map-1 
+{
+    width: 90%;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#map-2 
+{
+    width: 90%;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#map-3 
+{
+    width: 90%;
+    border-radius: 6px;
+    cursor: pointer;
+}
+h3 
+{
+    text-align: center;
+}
+                                /* footer */
+.footer 
+{
+    width: 100%;
+    height: 240px;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: relative;   
+}
+.ft-left 
+{
+    position:absolute;
+    top: 25px;
+    left: 60px;
+}
+:root 
+{
+    --animate-duration: 1s;
+    --animate-delay: 1s;
+    --animate-repeat: 1;
+}
+/* .content {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-duration: var(--animate-duration);
+    animation-duration: var(--animate-duration);
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: move_right;
+    animation-name: move_right;
+} */
+/* @keyframes move_right {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(-2000px,0,0);
+        transform: translate3d(-2000px,0,0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+} */
